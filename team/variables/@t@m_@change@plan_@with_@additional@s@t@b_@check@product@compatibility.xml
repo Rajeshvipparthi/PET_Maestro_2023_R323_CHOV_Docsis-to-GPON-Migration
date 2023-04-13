@@ -1,0 +1,6 @@
+<variable-file delimiters="," filename="DOCSIS_TO_GPON_ChangePlan_With_AdditionalSTB_CheckProductCompatibility_DATA.txt" name="TM_ChangePlan_With_AdditionalSTB_CheckProductCompatibility" offset="1" order="3" policy="5" range="1" uid="f81c0c18-8b77-4908-83f5-fe7b43e2ff6a" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="P_AUID" number="3"/>
+<column name="P_CBPID" number="0"/>
+<column name="P_HHID" number="2"/>
+<column name="P_SAMKEY" number="1"/>
+</variable-file>

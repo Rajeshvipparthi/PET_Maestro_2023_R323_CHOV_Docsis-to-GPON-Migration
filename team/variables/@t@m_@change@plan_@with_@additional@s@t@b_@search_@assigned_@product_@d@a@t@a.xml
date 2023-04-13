@@ -1,0 +1,3 @@
+<variable-file delimiters="," filename="DOCSIS_TO_GPON_TM_ChangePlan_With_AdditionalSTB_Search_Assigned_Product_DATA.txt" name="TM_ChangePlan_With_AdditionalSTB_Search_Assigned_Product_DATA" offset="1" order="3" policy="5" range="1" uid="7d080cd9-a62e-46aa-a589-a2ba1cfb099c" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="P_CBPID" number="0"/>
+</variable-file>

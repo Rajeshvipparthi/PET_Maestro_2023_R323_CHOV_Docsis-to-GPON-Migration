@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="TM_ChangePlan_With_AdditionalSTB_Get_FullFillment_Options_01"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="171f4a0f-7d90-4dea-9f87-63a5daaf33c3" weightsEnabled="false">
+    <weighted-embedded-action uid="401a1f93-2e47-4d83-8045-c2be0d412079"/>
+</basic-logical-action-container>

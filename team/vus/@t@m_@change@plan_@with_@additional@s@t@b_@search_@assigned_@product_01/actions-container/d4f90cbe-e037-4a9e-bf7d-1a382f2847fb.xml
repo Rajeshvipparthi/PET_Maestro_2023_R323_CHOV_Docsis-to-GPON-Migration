@@ -1,0 +1,59 @@
+<http-soap-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="TM_ChangePlan_With_AdditionalSTB_Search_Assigned_Product_01"
+    path="/awsi-ssp/services/OrderAndProductService" postType="4"
+    serverUid="sst99oms.rogers.com" slaProfileEnabled="false"
+    soap-mode="0" uid="d4f90cbe-e037-4a9e-bf7d-1a382f2847fb" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@t@m_@change@plan_@with_@additional@s@t@b_@search_@assigned_@product_01/%resources%/recorded-responses/res_d4f90cbe-e037-4a9e-bf7d-1a382f2847fb</responsePageFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="DOCSIS"/>
+    </assertions>
+    <header name="SOAPAction" value="&quot;&quot;"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <searchAssignedProducts xmlns="http://ws.ext.ws.services.cih.amdocs.com">
+   <request>
+    <ns1:CBPID xmlns:ns1="http://lib.ws.services.cih.amdocs.com">${TM_ChangePlan_With_AdditionalSTB_Search_Assigned_Product_DATA.P_CBPID}</ns1:CBPID>
+    <ns2:ESN xmlns:ns2="http://lib.ws.services.cih.amdocs.com"/>
+    <ns3:commonHeader xmlns:ns3="http://lib.ws.services.cih.amdocs.com">
+     <ns3:additionalAttributeX9>
+      <ns3:name>isTopologyMigration</ns3:name>
+      <ns3:value>true</ns3:value>
+     </ns3:additionalAttributeX9>
+     <ns3:additionalAttributeX9>
+      <ns3:name>ModemSelected</ns3:name>
+      <ns3:value>TT_WXB7_Modem</ns3:value>
+     </ns3:additionalAttributeX9>
+     <ns3:additionalAttributeX9>
+      <ns3:name>chosenTopology</ns3:name>
+      <ns3:value>GPON</ns3:value>
+     </ns3:additionalAttributeX9>
+     <ns3:additionalAttributeX9>
+      <ns3:name>HSIPlanSelected</ns3:name>
+      <ns3:value>510619182</ns3:value>
+     </ns3:additionalAttributeX9>
+     <ns3:applicationID>SSP</ns3:applicationID>
+     <ns3:cisIndicator>false</ns3:cisIndicator>
+     <ns3:communicationMethod>NA</ns3:communicationMethod>
+     <ns3:correlationID>1</ns3:correlationID>
+     <ns3:locale>EN</ns3:locale>
+     <ns3:requestTime>2022-12-21T03:46:56.739-05:00</ns3:requestTime>
+     <ns3:salesChannel>WS</ns3:salesChannel>
+     <ns3:salesHierarchyInfo>
+      <ns3:chain>ALL</ns3:chain>
+      <ns3:dealerCode>ALL</ns3:dealerCode>
+      <ns3:region>ALL</ns3:region>
+      <ns3:store>ALL</ns3:store>
+     </ns3:salesHierarchyInfo>
+     <ns3:sessionID>1</ns3:sessionID>
+    </ns3:commonHeader>
+   </request>
+  </searchAssignedProducts>
+ </soapenv:Body>
+</soapenv:Envelope>]]></textPostContent>
+</http-soap-action>

@@ -1,0 +1,6 @@
+<variable-file delimiters="," filename="DOCSIS_TO_GPON_Get_Available_TimeSlots_DATA.txt" name="DOCSIS_TO_GPON_Get_Available_TimeSlots_DATA" offset="1" order="3" policy="5" range="1" uid="02bb4c64-54df-4c04-9078-ecb63303ded4" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="P_AUID" number="3"/>
+<column name="P_CBPID" number="0"/>
+<column name="P_HHID" number="2"/>
+<column name="P_SAMKEY" number="1"/>
+</variable-file>

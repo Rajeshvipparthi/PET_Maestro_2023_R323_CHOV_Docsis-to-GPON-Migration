@@ -1,0 +1,7 @@
+<variable-file delimiters="," filename="DOCSIS_TO_GPON_ReplaceOffer_GetReplaceOfferResultService_01.txt" name="DOCSIS_TO_GPON_GetReplaceOffer_ResultServices_DATA" offset="2" order="3" policy="5" range="1" uid="a043eb7a-49b0-45ed-8a35-3e64428aef3d" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="AP_ID" number="4"/>
+<column name="AUID" number="3"/>
+<column name="CBPID" number="0"/>
+<column name="HHID" number="2"/>
+<column name="SAM_KEY" number="1"/>
+</variable-file>

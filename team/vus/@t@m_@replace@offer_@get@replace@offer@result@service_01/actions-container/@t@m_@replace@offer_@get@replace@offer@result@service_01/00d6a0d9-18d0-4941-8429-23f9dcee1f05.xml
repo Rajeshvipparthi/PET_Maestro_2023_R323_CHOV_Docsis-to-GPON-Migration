@@ -1,0 +1,62 @@
+<http-soap-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="TM_ReplaceOffer_GetReplaceOfferResultService_01"
+    path="/awsi-ssp/services/ProductConfigurationService?WSDL"
+    postType="4" serverUid="sst99oms.rogers.com"
+    slaProfileEnabled="false" soap-mode="0"
+    uid="00d6a0d9-18d0-4941-8429-23f9dcee1f05" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@t@m_@replace@offer_@get@replace@offer@result@service_01/%resources%/recorded-responses/res_4936379b-a915-405f-88d8-9d6f69aa7e44</responsePageFileDescription>
+    <header name="SOAPAction" value="&quot;&quot;"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <getReplaceOfferResult xmlns="http://ws.ext.ws.services.cih.amdocs.com">
+   <request>
+    <ns1:CBPID xmlns:ns1="http://lib.ws.services.cih.amdocs.com">${DOCSIS_TO_GPON_GetReplaceOffer_ResultServices_DATA.CBPID}</ns1:CBPID>
+    <ns2:commonHeader xmlns:ns2="http://lib.ws.services.cih.amdocs.com">
+     <ns2:additionalAttributeX9>
+      <ns2:name>isTopologyMigration</ns2:name>
+      <ns2:value>true</ns2:value>
+     </ns2:additionalAttributeX9>
+     <ns2:additionalAttributeX9>
+      <ns2:name>ModemSelected</ns2:name>
+      <ns2:value>TT_WXB7_Modem</ns2:value>
+     </ns2:additionalAttributeX9>
+     <ns2:additionalAttributeX9>
+      <ns2:name>chosenTopology</ns2:name>
+      <ns2:value>GPON</ns2:value>
+     </ns2:additionalAttributeX9>
+     <ns2:additionalAttributeX9>
+      <ns2:name>HSIPlanSelected</ns2:name>
+      <ns2:value>510619182</ns2:value>
+     </ns2:additionalAttributeX9>
+     <ns2:applicationID>SSP</ns2:applicationID>
+     <ns2:cisIndicator>false</ns2:cisIndicator>
+     <ns2:communicationMethod>NA</ns2:communicationMethod>
+     <ns2:correlationID>1</ns2:correlationID>
+     <ns2:locale>EN</ns2:locale>
+     <ns2:requestTime>2022-12-28T10:02:33.997-05:00</ns2:requestTime>
+     <ns2:salesChannel>WS</ns2:salesChannel>
+     <ns2:salesHierarchyInfo>
+      <ns2:chain>UTECONSUMER</ns2:chain>
+      <ns2:dealerCode>ALL</ns2:dealerCode>
+      <ns2:region>UTECONSUMER</ns2:region>
+      <ns2:store>UTECONSUMER</ns2:store>
+     </ns2:salesHierarchyInfo>
+     <ns2:sessionID>1</ns2:sessionID>
+    </ns2:commonHeader>
+    <ns3:serviceAddress xmlns:ns3="http://lib.ws.services.cih.amdocs.com">
+     <ns3:AUID>${DOCSIS_TO_GPON_GetReplaceOffer_ResultServices_DATA.AUID}</ns3:AUID>
+     <ns3:HHID>${DOCSIS_TO_GPON_GetReplaceOffer_ResultServices_DATA.HHID}</ns3:HHID>
+     <ns3:SAMKEY>${DOCSIS_TO_GPON_GetReplaceOffer_ResultServices_DATA.SAM_KEY}</ns3:SAMKEY>
+    </ns3:serviceAddress>
+    <ns4:sourceOfferAPID xmlns:ns4="http://lib.ws.services.cih.amdocs.com">${DOCSIS_TO_GPON_GetReplaceOffer_ResultServices_DATA.AP_ID}</ns4:sourceOfferAPID>
+    <ns5:targetOfferCID xmlns:ns5="http://lib.ws.services.cih.amdocs.com">502856144</ns5:targetOfferCID>
+   </request>
+  </getReplaceOfferResult>
+ </soapenv:Body>
+</soapenv:Envelope>]]></textPostContent>
+</http-soap-action>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="DOCSIS_TO_GPON_ReplaceOffer_GetOrderSummary" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="ebe93a32-a001-403a-9d23-4d2efc1b3b95" weightsEnabled="false">
+    <weighted-embedded-action uid="0e36b73e-ac9b-4c2b-b615-5f3d4706487b"/>
+</basic-logical-action-container>

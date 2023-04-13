@@ -1,0 +1,603 @@
+<http-soap-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="TM_ChangePlan_With_AdditionalSTB_CheckProductCompatibility"
+    path="/awsi-ssp/services/ProductConfigurationService?wsdl"
+    postType="4" serverUid="SST99OMS.ROGERS.COM"
+    slaProfileEnabled="false" soap-mode="0"
+    uid="c0b3b459-b92a-40da-90ca-2958b485e6aa" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@t@m_@change@plan_@with_@additional@s@t@b_@check@product@compatibility/%resources%/recorded-responses/res_c018e1d4-78e6-46bf-8569-a1021c6a2625</responsePageFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="Fulfillment Options"/>
+    </assertions>
+    <header name="SOAPAction" value="&quot;&quot;"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <checkProductCompatibility xmlns="http://ws.ext.ws.services.cih.amdocs.com">
+   <request>
+    <ns1:commonHeader xmlns:ns1="http://lib.ws.services.cih.amdocs.com">
+     <ns1:additionalAttributeX9>
+      <ns1:name>isTopologyMigration</ns1:name>
+      <ns1:value>true</ns1:value>
+     </ns1:additionalAttributeX9>
+     <ns1:additionalAttributeX9>
+      <ns1:name>ModemSelected</ns1:name>
+      <ns1:value>TT_WXB7_Modem</ns1:value>
+     </ns1:additionalAttributeX9>
+     <ns1:additionalAttributeX9>
+      <ns1:name>chosenTopology</ns1:name>
+      <ns1:value>GPON</ns1:value>
+     </ns1:additionalAttributeX9>
+     <ns1:additionalAttributeX9>
+      <ns1:name>HSIPlanSelected</ns1:name>
+      <ns1:value>510619182</ns1:value>
+     </ns1:additionalAttributeX9>
+     <ns1:applicationID>SSP</ns1:applicationID>
+     <ns1:cisIndicator>false</ns1:cisIndicator>
+     <ns1:communicationMethod>NA</ns1:communicationMethod>
+     <ns1:correlationID>1</ns1:correlationID>
+     <ns1:locale>EN</ns1:locale>
+     <ns1:requestTime>2022-12-21T03:46:56.739-05:00</ns1:requestTime>
+     <ns1:salesChannel>WS</ns1:salesChannel>
+     <ns1:salesHierarchyInfo>
+      <ns1:chain>ALL</ns1:chain>
+      <ns1:dealerCode>ALL</ns1:dealerCode>
+      <ns1:region>ALL</ns1:region>
+      <ns1:store>ALL</ns1:store>
+     </ns1:salesHierarchyInfo>
+     <ns1:sessionID>1</ns1:sessionID>
+    </ns1:commonHeader>
+    <ns2:customerAddress xmlns:ns2="http://lib.ws.services.cih.amdocs.com">
+     <ns2:CBPID>${TM_ChangePlan_With_AdditionalSTB_CheckProductCompatibility.P_CBPID}</ns2:CBPID>
+     <ns2:serviceAddress>
+      <ns2:AUID>${TM_ChangePlan_With_AdditionalSTB_CheckProductCompatibility.P_AUID}</ns2:AUID>
+      <ns2:HHID>${TM_ChangePlan_With_AdditionalSTB_CheckProductCompatibility.P_HHID}</ns2:HHID>
+      <ns2:SAMKEY>${TM_ChangePlan_With_AdditionalSTB_CheckProductCompatibility.P_SAMKEY}</ns2:SAMKEY>
+     </ns2:serviceAddress>
+    </ns2:customerAddress>
+    <ns3:products xmlns:ns3="http://lib.ws.services.cih.amdocs.com">
+     <ns3:APID>963065227</ns3:APID>
+     <ns3:CID>2642</ns3:CID>
+     <ns3:PCVersionID>10840000</ns3:PCVersionID>
+     <ns3:action>UP</ns3:action>
+     <ns3:actionType>CH</ns3:actionType>
+     <ns3:additionalAttributes>
+      <ns3:name>ProductVersion</ns3:name>
+      <ns3:value>0</ns3:value>
+     </ns3:additionalAttributes>
+     <ns3:additionalAttributes>
+      <ns3:name>chosenTopology</ns3:name>
+      <ns3:value>GPON</ns3:value>
+     </ns3:additionalAttributes>
+     <ns3:additionalAttributes>
+      <ns3:name>Product_Name</ns3:name>
+      <ns3:value>Modem</ns3:value>
+     </ns3:additionalAttributes>
+     <ns3:cardinality>1</ns3:cardinality>
+     <ns3:components>
+      <ns3:APID>963065227</ns3:APID>
+      <ns3:CID>42</ns3:CID>
+      <ns3:PCVersionID>10840000</ns3:PCVersionID>
+      <ns3:action>NONE</ns3:action>
+      <ns3:additionalAttributes>
+       <ns3:name>EPC_Caption</ns3:name>
+       <ns3:value>Modem_Main</ns3:value>
+      </ns3:additionalAttributes>
+      <ns3:additionalAttributes>
+       <ns3:name>serviceType</ns3:name>
+       <ns3:value>GW</ns3:value>
+      </ns3:additionalAttributes>
+      <ns3:additionalAttributes>
+       <ns3:name>Component_Name</ns3:name>
+       <ns3:value>Modem Main</ns3:value>
+      </ns3:additionalAttributes>
+      <ns3:additionalAttributes>
+       <ns3:name>IsEquipment</ns3:name>
+       <ns3:value>false</ns3:value>
+      </ns3:additionalAttributes>
+      <ns3:attributes>
+       <ns3:PID>502572241</ns3:PID>
+       <ns3:isEditable>true</ns3:isEditable>
+       <ns3:isMandatory>false</ns3:isMandatory>
+       <ns3:isVisible>true</ns3:isVisible>
+       <ns3:propertyName>Existed Warranty Indicator</ns3:propertyName>
+       <ns3:value>No</ns3:value>
+      </ns3:attributes>
+      <ns3:attributes>
+       <ns3:PID>3092</ns3:PID>
+       <ns3:isEditable>false</ns3:isEditable>
+       <ns3:isMandatory>false</ns3:isMandatory>
+       <ns3:isVisible>true</ns3:isVisible>
+       <ns3:propertyName>Fulfillment Options</ns3:propertyName>
+       <ns3:value>IM</ns3:value>
+      </ns3:attributes>
+      <ns3:attributes>
+       <ns3:PID>503177473</ns3:PID>
+       <ns3:isEditable>false</ns3:isEditable>
+       <ns3:isMandatory>true</ns3:isMandatory>
+       <ns3:isVisible>true</ns3:isVisible>
+       <ns3:propertyName>Gateway Mac</ns3:propertyName>
+       <ns3:value>E1DAFB30FFAC</ns3:value>
+      </ns3:attributes>
+      <ns3:attributes>
+       <ns3:PID>506070577</ns3:PID>
+       <ns3:isEditable>false</ns3:isEditable>
+       <ns3:isMandatory>true</ns3:isMandatory>
+       <ns3:isVisible>true</ns3:isVisible>
+       <ns3:propertyName>MSISDN</ns3:propertyName>
+       <ns3:value>1</ns3:value>
+      </ns3:attributes>
+      <ns3:attributes>
+       <ns3:PID>27641</ns3:PID>
+       <ns3:isEditable>false</ns3:isEditable>
+       <ns3:isMandatory>false</ns3:isMandatory>
+       <ns3:isVisible>true</ns3:isVisible>
+       <ns3:propertyName>Remorse Period End Date</ns3:propertyName>
+       <ns3:value/>
+      </ns3:attributes>
+      <ns3:attributes>
+       <ns3:PID>272</ns3:PID>
+       <ns3:isEditable>true</ns3:isEditable>
+       <ns3:isMandatory>false</ns3:isMandatory>
+       <ns3:isVisible>true</ns3:isVisible>
+       <ns3:propertyName>Serial Number</ns3:propertyName>
+       <ns3:value>810000226003</ns3:value>
+      </ns3:attributes>
+      <ns3:attributes>
+       <ns3:PID>30533</ns3:PID>
+       <ns3:isEditable>false</ns3:isEditable>
+       <ns3:isMandatory>false</ns3:isMandatory>
+       <ns3:isVisible>true</ns3:isVisible>
+       <ns3:propertyName>Subscriber Sub Type Indicator</ns3:propertyName>
+       <ns3:value>9</ns3:value>
+      </ns3:attributes>
+      <ns3:attributes>
+       <ns3:PID>1941</ns3:PID>
+       <ns3:isEditable>false</ns3:isEditable>
+       <ns3:isMandatory>false</ns3:isMandatory>
+       <ns3:isVisible>true</ns3:isVisible>
+       <ns3:propertyName>Return Method</ns3:propertyName>
+       <ns3:value>NA</ns3:value>
+      </ns3:attributes>
+      <ns3:attributes>
+       <ns3:PID>49097</ns3:PID>
+       <ns3:isEditable>false</ns3:isEditable>
+       <ns3:isMandatory>false</ns3:isMandatory>
+       <ns3:isVisible>true</ns3:isVisible>
+       <ns3:propertyName>Allowed Return Date</ns3:propertyName>
+       <ns3:value/>
+      </ns3:attributes>
+      <ns3:cardinality>1</ns3:cardinality>
+      <ns3:components>
+       <ns3:APID>963065273</ns3:APID>
+       <ns3:CID>202</ns3:CID>
+       <ns3:PCVersionID>10870000</ns3:PCVersionID>
+       <ns3:action>NONE</ns3:action>
+       <ns3:additionalAttributes>
+        <ns3:name>EPC_Caption</ns3:name>
+        <ns3:value>Cable_Modem</ns3:value>
+       </ns3:additionalAttributes>
+       <ns3:additionalAttributes>
+        <ns3:name>serviceType</ns3:name>
+        <ns3:value>CMDC</ns3:value>
+       </ns3:additionalAttributes>
+       <ns3:additionalAttributes>
+        <ns3:name>Component_Name</ns3:name>
+        <ns3:value>Equipment</ns3:value>
+       </ns3:additionalAttributes>
+       <ns3:additionalAttributes>
+        <ns3:name>IsEquipment</ns3:name>
+        <ns3:value>false</ns3:value>
+       </ns3:additionalAttributes>
+       <ns3:cardinality>1</ns3:cardinality>
+       <ns3:components>
+        <ns3:CID>510381803</ns3:CID>
+        <ns3:PCVersionID>10841000</ns3:PCVersionID>
+        <ns3:action>AD</ns3:action>
+        <ns3:additionalAttributes>
+         <ns3:name>EPC_Caption</ns3:name>
+         <ns3:value>TT_WX7T_Modem</ns3:value>
+        </ns3:additionalAttributes>
+        <ns3:additionalAttributes>
+         <ns3:name>serviceType</ns3:name>
+         <ns3:value>CMDC</ns3:value>
+        </ns3:additionalAttributes>
+        <ns3:additionalAttributes>
+         <ns3:name>Component_Name</ns3:name>
+         <ns3:value>Ignite WiFi Gateway (Gen 2) - GPON</ns3:value>
+        </ns3:additionalAttributes>
+        <ns3:additionalAttributes>
+         <ns3:name>Component_Code</ns3:name>
+         <ns3:value>TT_WX7T_Modem</ns3:value>
+        </ns3:additionalAttributes>
+        <ns3:additionalAttributes>
+         <ns3:name>IsEquipment</ns3:name>
+         <ns3:value>true</ns3:value>
+        </ns3:additionalAttributes>
+        <ns3:attributes>
+         <ns3:PID>505120069</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>ATA Mac Address</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>501225367</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Agent Id</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>504791561</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>ONU_MAC_Address</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>501117834</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>REF_AP_ID</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>501225347</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Technician Id</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>505184918</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>WAN MAC Address</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>503675027</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Zigbee_Mac_Address</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>222</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>true</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Acquisition Type</ns3:propertyName>
+         <ns3:value>RE</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>272</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Serial Number</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>13481</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>true</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Data MAC Address</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>711</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Equipment Manufacturer</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>142</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Model</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>232</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Equipment Status</ns3:propertyName>
+         <ns3:value>N</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>427144474</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Foreign Manufacturer</ns3:propertyName>
+         <ns3:value>Please Select a Manufacturer</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>427144434</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Foreign Model</ns3:propertyName>
+         <ns3:value>Please Select a Model</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>102</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Additional Information</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>332</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Provider/Courier</ns3:propertyName>
+         <ns3:value>NA</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>192</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Tracking Number</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>122</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Return Date</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:cardinality>1</ns3:cardinality>
+        <ns3:isMandatory>false</ns3:isMandatory>
+        <ns3:totalPrice>
+         <ns3:tax>0.0</ns3:tax>
+         <ns3:totalOC>0.0</ns3:totalOC>
+         <ns3:totalRC>0.0</ns3:totalRC>
+        </ns3:totalPrice>
+       </ns3:components>
+       <ns3:components>
+        <ns3:APID>963065428</ns3:APID>
+        <ns3:CID>510381103</ns3:CID>
+        <ns3:PCVersionID>10841000</ns3:PCVersionID>
+        <ns3:PPArray>509994522_RM_750437631;510382603_RM_750437628</ns3:PPArray>
+        <ns3:action>RM</ns3:action>
+        <ns3:additionalAttributes>
+         <ns3:name>EPC_Caption</ns3:name>
+         <ns3:value>TT_WXB7_Modem</ns3:value>
+        </ns3:additionalAttributes>
+        <ns3:additionalAttributes>
+         <ns3:name>serviceType</ns3:name>
+         <ns3:value>CMDC</ns3:value>
+        </ns3:additionalAttributes>
+        <ns3:additionalAttributes>
+         <ns3:name>Component_Name</ns3:name>
+         <ns3:value>Ignite WiFi Gateway (Gen 2)</ns3:value>
+        </ns3:additionalAttributes>
+        <ns3:additionalAttributes>
+         <ns3:name>Component_Code</ns3:name>
+         <ns3:value>TT_WXB7_Modem</ns3:value>
+        </ns3:additionalAttributes>
+        <ns3:additionalAttributes>
+         <ns3:name>IsEquipment</ns3:name>
+         <ns3:value>true</ns3:value>
+        </ns3:additionalAttributes>
+        <ns3:attributes>
+         <ns3:PID>505120069</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>ATA Mac Address</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>501225367</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Agent Id</ns3:propertyName>
+         <ns3:value>Asmsa1</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>504791561</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>ONU_MAC_Address</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>501117834</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>REF_AP_ID</ns3:propertyName>
+         <ns3:value>963065227</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>501225347</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Technician Id</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>505184918</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>WAN MAC Address</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>503675027</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Zigbee_Mac_Address</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>222</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>true</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Acquisition Type</ns3:propertyName>
+         <ns3:value>RE</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>272</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Serial Number</ns3:propertyName>
+         <ns3:value>810000226003</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>13481</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>true</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Data MAC Address</ns3:propertyName>
+         <ns3:value>E1DAFB30FFAC</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>711</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Equipment Manufacturer</ns3:propertyName>
+         <ns3:value>SCIENTIFIC ATLANTA</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>142</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Model</ns3:propertyName>
+         <ns3:value>WCG200</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>232</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Equipment Status</ns3:propertyName>
+         <ns3:value>A</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>427144474</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Foreign Manufacturer</ns3:propertyName>
+         <ns3:value>Please Select a Manufacturer</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>427144434</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Foreign Model</ns3:propertyName>
+         <ns3:value>Please Select a Model</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>102</ns3:PID>
+         <ns3:isEditable>true</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Additional Information</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>212</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Warranty Duration</ns3:propertyName>
+         <ns3:value>12</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>332</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Provider/Courier</ns3:propertyName>
+         <ns3:value>NA</ns3:value>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>192</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Tracking Number</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:attributes>
+         <ns3:PID>122</ns3:PID>
+         <ns3:isEditable>false</ns3:isEditable>
+         <ns3:isMandatory>false</ns3:isMandatory>
+         <ns3:isVisible>true</ns3:isVisible>
+         <ns3:propertyName>Return Date</ns3:propertyName>
+         <ns3:value/>
+        </ns3:attributes>
+        <ns3:cardinality>1</ns3:cardinality>
+        <ns3:isMandatory>false</ns3:isMandatory>
+        <ns3:totalPrice>
+         <ns3:tax>0.0</ns3:tax>
+         <ns3:totalOC>0.0</ns3:totalOC>
+         <ns3:totalRC>0.0</ns3:totalRC>
+        </ns3:totalPrice>
+       </ns3:components>
+       <ns3:isMandatory>true</ns3:isMandatory>
+       <ns3:totalPrice>
+        <ns3:tax>0.0</ns3:tax>
+        <ns3:totalOC>0.0</ns3:totalOC>
+        <ns3:totalRC>0.0</ns3:totalRC>
+       </ns3:totalPrice>
+      </ns3:components>
+      <ns3:isMandatory>true</ns3:isMandatory>
+      <ns3:totalPrice>
+       <ns3:tax>0.0</ns3:tax>
+       <ns3:totalOC>0.0</ns3:totalOC>
+       <ns3:totalRC>0.0</ns3:totalRC>
+      </ns3:totalPrice>
+     </ns3:components>
+     <ns3:isMandatory>true</ns3:isMandatory>
+     <ns3:offerCID>504617342</ns3:offerCID>
+     <ns3:orderActionReasonCode>CHTP</ns3:orderActionReasonCode>
+     <ns3:serviceRequiredDate>2022-12-05T15:00:43.000-05:00</ns3:serviceRequiredDate>
+     <ns3:totalPrice>
+      <ns3:tax>0.0</ns3:tax>
+      <ns3:totalOC>0.0</ns3:totalOC>
+      <ns3:totalRC>0.0</ns3:totalRC>
+     </ns3:totalPrice>
+    </ns3:products>
+   </request>
+  </checkProductCompatibility>
+ </soapenv:Body>
+</soapenv:Envelope>]]></textPostContent>
+</http-soap-action>

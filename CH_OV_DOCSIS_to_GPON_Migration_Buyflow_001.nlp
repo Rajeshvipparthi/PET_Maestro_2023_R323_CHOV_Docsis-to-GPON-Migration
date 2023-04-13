@@ -1,0 +1,14 @@
+# Project description file
+
+project.name=CH_OV_DOCSIS_to_GPON_Migration_Buyflow_001
+project.version=8.7
+project.original.version=8.7
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=9.1.1
+project.is-open-test-settings-after-upload=false
+project.id=6cd17c5a-2399-4fe5-96f3-9a848d75f5ad
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/Rajeshvipparthi/PET_Maestro_2023_R323_CHOV_Docsis-to-GPON-Migration

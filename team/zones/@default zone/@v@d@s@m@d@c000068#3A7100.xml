@@ -1,0 +1,6 @@
+<lg-host browserBasedSupport="false" citrixSupport="false"
+    hostname="VDSMDC000068:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="5b3da961-27d3-4300-b7de-069c7f491814" version="7.11.4;build=20220105-79">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

@@ -1,0 +1,5 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="TM_ChangePlan_With_AdditionalSTB_Search_Assigned_Product_001"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="12d0996d-a73b-4581-b218-3884c6c5ae05" weightsEnabled="false"/>

@@ -1,0 +1,6 @@
+<variable-file delimiters="," filename="DOCSIS_TO_GPON_Get_Basic_Product_Definition_DATA.txt" name="DOCSIS_TO_GPON_Get_Basic_Product_Definition_DATA" offset="1" order="3" policy="5" range="1" uid="4c970a93-5406-43d2-9f03-183e63d7065d" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="P_AUID" number="3"/>
+<column name="P_CBPID" number="0"/>
+<column name="P_HHID" number="2"/>
+<column name="P_SAMKEY" number="1"/>
+</variable-file>
